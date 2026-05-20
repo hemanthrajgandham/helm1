@@ -8,7 +8,9 @@ image:
   repository: busybox
   tag: latest
   pullPolicy: IfNotPresent
-  appMessage: "cards service"
+  
+
+appMessage: "cards service"
   # Overrides the image tag whose default is the chart appVersion.
 
 imagePullSecrets: []
